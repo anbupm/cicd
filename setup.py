@@ -13,6 +13,7 @@ def get_requirements(filename:str)->List[str]:
 
         if HYPE_DOT in requirements:
             requirements.remove(HYPE_DOT)
+    return requirements
 
 
 setup(
